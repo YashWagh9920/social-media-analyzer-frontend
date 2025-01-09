@@ -37,7 +37,7 @@ const Dashboard = () => {
   const dataFromRedux = useSelector((state) => state.csvData);
 
   useEffect(() => {
-    fetch("../assets/social.csv")
+    fetch("../social.csv")
       .then((response) => response.text())
       .then((csvText) => {
         Papa.parse(csvText, {
