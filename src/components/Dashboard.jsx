@@ -105,7 +105,7 @@ const Dashboard = () => {
     </div>
     <button
     onClick={()=> navigate('/chatbot')}
-     className="flex items-center gap-2 lg:px-8 lg:py-4 lg:text-2xl p-2 text-xl rounded-lg text-white bg-gradient-to-r from-indigo-600 to-violet-600 hover:opacity-90 transition-opacity">
+     className="lg:px-8 lg:py-4 lg:text-2xl p-2 rounded-lg text-white bg-gradient-to-r from-indigo-600 to-violet-600 hover:opacity-90 transition-opacity">
       Chat with ViraLyticsAI
     </button>
     </div>
