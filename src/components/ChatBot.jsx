@@ -61,10 +61,10 @@ function ChatBot() {
           ViraLyticsAI
         </div>
         <Button 
-            className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-900 hover:to-violet-900 px-5 py-6"
+            className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-900 hover:to-violet-900 lg:px-5 lg:py-6"
             onClick={() => navigate('/dashboard')}
           >
-            <span className="text-white text-xl">Go To Dashboard</span>
+            <span className="text-white lg:text-xl">Go To Dashboard</span>
           </Button>
       </div>
 
